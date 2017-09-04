@@ -1,0 +1,32 @@
+{
+  "name": "koa2-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Selvin11/koa2-server.git",
+  "scripts": {
+    "init": "node server/db/init.js",
+    "server": "./node_modules/.bin/nodemon server.js"
+  },
+  "author": "Selvin11 <528370630@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-html": "^3.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^7.4.3",
+    "kcors": "^2.2.1",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.2.1",
+    "koa-static": "^4.0.1",
+    "mysql": "^2.14.1",
+    "sha1": "^1.1.1"
+  }
+}

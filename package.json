@@ -27,6 +27,8 @@
     "koa-router": "^7.2.1",
     "koa-static": "^4.0.1",
     "mysql": "^2.14.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
     "sha1": "^1.1.1"
   }
 }

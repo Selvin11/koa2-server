@@ -32,53 +32,53 @@ let createTable = sql => {
 }
 
 // 通过ID查找数据
-let findDataById = (table, id) => {
-  let _sql = 'SELECT * FROM ?? WHERE id = ?'
-  return query(_sql, [table, id])
-}
+// let findDataById = (table, id) => {
+//   let _sql = 'SELECT * FROM ?? WHERE id = ?'
+//   return query(_sql, [table, id])
+// }
 
 // 分页查找
-let findDataByPage = (table, keys, start, end) => {
-  let _sql = 'SELECT ?? FROM ??  LIMIT ? , ?'
-  return query(_sql, [keys, table, start, end])
-}
+// let findDataByPage = (table, keys, start, end) => {
+//   let _sql = 'SELECT ?? FROM ??  LIMIT ? , ?'
+//   return query(_sql, [keys, table, start, end])
+// }
 
 // 插入
-let insertData = (table, values) => {
-  let _sql = 'INSERT INTO ?? SET ?'
-  return query(_sql, [table, values])
-}
+// let insertData = (table, values) => {
+//   let _sql = 'INSERT INTO ?? SET ?'
+//   return query(_sql, [table, values])
+// }
 
 // 更新
-let updateData = (table, values, id) => {
-  let _sql = 'UPDATE ?? SET ? WHERE id = ?'
-  return query(_sql, [table, values, id])
-}
+// let updateData = (table, values, id) => {
+//   let _sql = 'UPDATE ?? SET ? WHERE id = ?'
+//   return query(_sql, [table, values, id])
+// }
 
 // 删除
-let deleteDataById = (table, id) => {
-  let _sql = 'DELETE FROM ?? WHERE id = ?'
-  return query(_sql, [table, id])
-}
+// let deleteDataById = (table, id) => {
+//   let _sql = 'DELETE FROM ?? WHERE id = ?'
+//   return query(_sql, [table, id])
+// }
 
-let select = (table, keys) => {
-  let _sql = 'SELECT ?? FROM ?? '
-  return query(_sql, [keys, table])
-}
+// let select = (table, keys) => {
+//   let _sql = 'SELECT ?? FROM ?? '
+//   return query(_sql, [keys, table])
+// }
 
-let count = (table) => {
-  let _sql = 'SELECT COUNT(*) AS total_count FROM ?? '
-  return query(_sql, [table])
-}
+// let count = (table) => {
+//   let _sql = 'SELECT COUNT(*) AS total_count FROM ?? '
+//   return query(_sql, [table])
+// }
 
 module.exports = {
   query,
-  createTable,
-  findDataById,
-  findDataByPage,
-  deleteDataById,
-  insertData,
-  updateData,
-  select,
-  count
+  createTable
+  // findDataById,
+  // findDataByPage,
+  // deleteDataById,
+  // insertData,
+  // updateData,
+  // select,
+  // count
 }

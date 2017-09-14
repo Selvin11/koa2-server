@@ -122,7 +122,7 @@ const GetGithubAccessToken = async (ctx, next) => {
   path += '&code=' + code
   let accessToken = ''
   await rp.post(path).then(body => {
-    console.log('body', body)
+    // console.log('body', body)
     let obj = url.getSearch(body)
     accessToken = obj.access_token
   })

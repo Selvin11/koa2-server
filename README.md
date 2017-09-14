@@ -1,6 +1,6 @@
 ## koa2-server
 
-koa2及Mysql组成的后端，为[koa2-login]()中的token注册登录及Github第三方登录提供服务。
+koa2及Mysql组成的后端，为[koa2-login](https://github.com/Selvin11/koa2-login)中的token注册登录及Github第三方登录提供服务。
 
 ## 初始化
 
@@ -21,3 +21,9 @@ npm run init
 ```bash
 npm run server
 ```
+
+## 项目相关
+
+* `./config/auth.config.js`文件为自己的Github中新建的OAuth Apps
+
+* 项目中包含一些自己的**注释，请忽略～

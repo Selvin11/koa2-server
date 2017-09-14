@@ -4,7 +4,7 @@
   ],
   "verbose": true,
   "execMap": {
-    "js": "node"
+    "js": "node --harmony"
   },
   "watch": [
     "nodemon.json",

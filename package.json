@@ -10,25 +10,18 @@
   "author": "Selvin11 <528370630@qq.com>",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^4.6.1",
-    "eslint-config-standard": "^10.2.1",
-    "eslint-plugin-html": "^3.2.1",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-node": "^5.1.1",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.17.3"
   },
   "dependencies": {
-    "jsonwebtoken": "^7.4.3",
+    "jsonwebtoken": "^8.2.1",
     "kcors": "^2.2.1",
-    "koa": "^2.3.0",
+    "koa": "^2.5.0",
     "koa-bodyparser": "^4.2.0",
-    "koa-router": "^7.2.1",
-    "koa-static": "^4.0.1",
-    "mysql": "^2.14.1",
-    "request": "^2.81.0",
-    "request-promise": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^4.0.2",
+    "mysql": "^2.15.0",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2",
     "sha1": "^1.1.1"
   }
 }
